@@ -1,5 +1,5 @@
 class OwnersController < ApplicationController
-
+binding.pry
   get '/owners' do
     @owners = Owner.all
     erb :'/owners/index' 
